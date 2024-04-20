@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  appearance: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: #efefef;
+}
+
+body::before {
+  content: "";
+  display: block;
+  background: #535971;
+  flex-shrink: 0;
+
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 436px;
+  margin: auto;
+  top: 0;
+  left: 0;
+}
+
+.page {
+  width: 750px;
+  margin: auto;
+}
+
+.page header {
+  margin-top: 140px;
+  width: 417px;
+}
+
+.page header h1 {
+  margin-bottom: 18px;
+
+  color: #fff;
+
+  font-family: Staatliches;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.page header p {
+  margin-bottom: 58px;
+
+  color: #fff;
+
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.page form {
+  border-radius: 20px 20px 0px 0px;
+
+  min-height: 300px;
+  background-color: #fff;
+
+  padding: 64px;
+}
+
+fieldset {
+  border: none;
+}
+
+.page form fieldset:nth-child(2),.page form fieldset:nth-child(3) {
+    margin-top: 16px;
+}
+
+.page form fieldset legend {
+  color: #535971;
+
+  font-family: Staatliches;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+
+  padding-bottom: 16px;
+  margin-bottom: 36px;
+
+  border-bottom: 1px solid #e6e6f0;
+  width: 100%;
+}
+
+.page form fieldset .name-input {
+    display: flex;
+    gap: 22px;
+    width: 100%; 
+  }
+
+  .page form fieldset .name-input .input-wrapper {
+    flex: 1; 
+  }
+
+.page form fieldset .input-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 16px;
+}
+
+.page form fieldset .input-wrapper label {
+  color: #4e4958;
+
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+
+  margin-bottom: 8px;
+}
+
+.page form fieldset .input-wrapper label span {
+  color: #c1bccc;
+
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.page form fieldset .input-wrapper label span:hover {
+  color: #736e7d;
+}
+
+.page form fieldset .input-wrapper input {
+max-width: 100%;
+  height: 56px;
+
+  padding: 24px;
+
+  border-radius: 8px;
+  border-radius: 8px;
+  border: 1px solid #e6e6f0;
+
+  color: #686272;
+
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+
+  background: #fafafc;
+}
+
+.page form fieldset h2 {
+    color: #535971;
+
+    margin-bottom: 8px;
+
+font-family: Staatliches;
+font-size: 20px;
+font-weight: 400;
+line-height: 34px
+ 
+}
+
+.page form fieldset .date-input {
+    display: flex;
+    gap: 22px;
+    width: 100%; 
+  }
+
+  .page form fieldset .date-input .input-wrapper {
+    flex: 1; 
+  }
+
+  footer {
+    height: 160px;
+    border-radius: 0px 0px 20px 20px;
+    background: #535971;
+    
+    margin-bottom: 200px;
+    padding: 50 70;
+    display: flex;
+    
+  }
+
+  footer button {
+
+    color: #FFF;
+
+    font-family: Staatliches;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px; 
+
+
+    margin: auto;
+    width: 600px;
+    height: 60px;
+    border-radius: 20px;
+
+   border: none;
+   background: #FF5374;
+
+   transition: transform 0.3s ease;
+  }
+
+  footer button:hover {
+    transform: scale(1.020);
+
+  }
+
+
+
